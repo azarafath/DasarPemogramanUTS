@@ -1,7 +1,6 @@
-# DasarPemogramanUTS
-DASAR PEMOGRAMAN IK1E
+Program Sederhan Pendataan Kemampuan Ekonomi OrangTua Berdasarkan Pendapatan dan Pengeluaran.
 
+UTS DASAR PEMOGRAMAN
+1.A ZAKARIA FATHONI
 
-1.AHMAD ZAKARIA FATHONI
-
-2.FEBRI ARDANA
+2. FEBRI ARDANA
