@@ -1,3 +1,4 @@
+#Program Sederhana Pendataan Ekonomi OrangTua Berdasarkan Gaji dan Pengeluaran.
 import pandas as pd
 
 # inisialisasi class
