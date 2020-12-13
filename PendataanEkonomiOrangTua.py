@@ -50,4 +50,37 @@ class Orangtua():
         print(df)
         print("="*50)
         
+        pilih = int(input("Masukkan pilihan : "))
+    
+    print()
+    return pilih
+
+def tambah():
+    print("1. Tambahkan data")
+    nama = input("Masukkan nama\t\t\t: ")
+    jabatan = input("Masukkan jabatan\t\t: ")
+    gaji = int(input("Masukkan gaji\t\t\t: "))
+    pengeluaran = int(input("Masukkan pengeluaran/bulan\t: "))
+    
+    orangtua.tambah_data(nama, jabatan, gaji)
+    orangtua.hitung_tingkat(pengeluaran)
+    print()
+        
+# main program
+orangtua = Orangtua() # instance dari class Karyawan
+pilih = 0
+while (pilih != 3):
+    pilih = get_option()
+    
+    if (pilih == 1):
+        tambah()
+        
+    elif (pilih == 2):
+        orangtua.tampilkan_data()
+        
+    elif (pilih == 3):
+        print("Keluar dari program!")
+        
+    else:
+        print("Tidak ada pilihan!")
         print()
